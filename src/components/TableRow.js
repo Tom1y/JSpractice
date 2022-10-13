@@ -19,6 +19,9 @@ export default function TableRow(props) {
       <td className="items">{props.name}</td>
       <td className={`price ${priceColorClass()}`}>{props.price}</td>
       <td>{discount()}</td>
+      <td>
+        <button onClick={props.selectHandler}>Add item</button>
+      </td>
     </tr>
   );
 }

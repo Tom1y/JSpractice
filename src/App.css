@@ -2,6 +2,17 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+.tables {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.tables h2 {
+  margin-left: 30px;
+  margin-top: -50px;
+}
+
 table,
 th,
 td {
@@ -29,4 +40,8 @@ h1 {
 
 .discount {
   font-weight: bold;
+}
+
+button {
+  background-color: #faedcd;
 }
