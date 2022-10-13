@@ -1,6 +1,32 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
 table,
 th,
 td {
   border: 1px solid black;
   padding: 3px;
+  /* background-color: #faedcd; */
+  margin-left: 30px;
+}
+.header-title {
+  background-color: #606c38;
+}
+
+.sum {
+  font-weight: bold;
+  background-color: red;
+}
+
+body {
+  background-color: #ccd5ae;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+.discount {
+  font-weight: bold;
 }

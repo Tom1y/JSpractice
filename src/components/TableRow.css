@@ -1,0 +1,14 @@
+.items {
+  background-color: #fefae0;
+}
+.prices {
+  background-color: #dda15e;
+}
+
+.price-red {
+  color: red;
+}
+
+.price-green {
+  color: green;
+}
