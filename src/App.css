@@ -4,7 +4,7 @@ html {
 
 .tables {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: flex-start;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 h1 {
-  margin-left: 30px;
+  margin-left: 170px;
 }
 
 .discount {

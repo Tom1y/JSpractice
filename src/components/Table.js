@@ -31,7 +31,6 @@ export default function Table(props) {
               discount={item.discounted}
               key={item.id}
               selectHandler={() => props.selectHandler(item.id)}
-              deselectHandler={() => props.deselectHandler(item.id)}
             />
           );
         })}

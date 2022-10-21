@@ -55,9 +55,12 @@ function App() {
       <div className="tables">
         <Table data={data} selectHandler={selectItem} />
         {basket.length === 0 ? (
-          <h2>add items to your shooping cart</h2>
+          <h2>add items to your shoping cart</h2>
         ) : (
-          <ShopCard data={basket} deselectHandler={deselectItem} />
+          <div>
+            <h2>your shopping cart</h2>
+            <ShopCard data={basket} deselectHandler={deselectItem} />
+          </div>
         )}
       </div>
     </div>

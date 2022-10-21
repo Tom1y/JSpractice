@@ -1,6 +1,5 @@
 import React from "react";
-import App from "../App";
-import TableRow from "./TableRow";
+
 import ShopRow from "./ShopRow";
 
 export default function ShopCard(props) {
