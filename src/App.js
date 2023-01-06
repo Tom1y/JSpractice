@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Table from "./components/Table";
 import ShopCard from "./components/ShopCard";
+import Statistics from "./components/Statistics";
 
 function App() {
   const [data, setData] = useState([]);
@@ -51,6 +52,7 @@ function App() {
 
   return (
     <div>
+      <Statistics data={data} />
       <h1>Look at all this prices</h1>
       <div className="tables">
         <Table data={data} selectHandler={selectItem} />

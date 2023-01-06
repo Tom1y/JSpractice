@@ -2,6 +2,21 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+.statistics {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 15px;
+  background-color: #e9edc9;
+  border-radius: 5px;
+  box-shadow: 0 4px 2px -1px gray;
+}
+
+.statistics-bold {
+  font-weight: bold;
+}
+
 .tables {
   display: flex;
   justify-content: space-around;
